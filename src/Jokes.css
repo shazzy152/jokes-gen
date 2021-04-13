@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.joke{
+    margin: 20px;
+}
+.btn{
+    position: relative;
+    top: 0;
+    text-decoration: none;
+    padding: 12px;
+    border: 2px solid #e5dc15;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2em #c2bb11, 0 0.4em rgba(0, 0, 0, 0.4);
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+    margin: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Jua', sans-serif;
+    background-color: transparent;
+}
+.btn:hover {
+    background: #e5dc15;
+    color: #0e79b2;
+    top: 0.1em;
+    box-shadow: 0 0.2em #c2bb11, 0 0.4em rgba(0, 0, 0, 0.4);
+  }
+  .btn:active {
+    top: 0.3em;
+    box-shadow: 0 0.2em #c2bb11, 0 0.5em rgba(0, 0, 0, 0.4);
+  }
