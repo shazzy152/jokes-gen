@@ -3,6 +3,10 @@
 .joke{
     margin: 20px;
 }
+.btn-wrap{
+  position: relative;
+  top: 40px;
+}
 .btn{
     position: relative;
     top: 0;

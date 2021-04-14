@@ -3,7 +3,7 @@
 
 .App, body {
   text-align: center;
-  height: 110vh;
+  height: 100vh;
   display : flex;
   flex-direction : column;
   background: url(./Background.jpg) no-repeat center center fixed;
@@ -54,7 +54,7 @@
 .CategorySelect{
   position: absolute;
   width: 99.8%;
-  top: 49%;
+  top: 51%;
   height: 8vh;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@
   }
   @media only screen and (max-width: 503px) {
     .App, body{
-      height: 110vh;
+      height: 105vh;
     }
     .jokes{
       height: 32vh;
@@ -86,6 +86,7 @@
     }
     .CategorySelect{
       top: 59%;
+      margin-top: 20px;
     }
     .categories{
       height: 43vh;
